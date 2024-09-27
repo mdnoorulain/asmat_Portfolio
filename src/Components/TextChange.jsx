@@ -21,7 +21,7 @@ const TextChange = () => {
           setIsForward(false);
         }
       } else {
-        if (endValue > 0) {
+        if (endValue > 1) {
           setEndValue((prev) => prev - 1);
         } else {
           setIsForward(true);
